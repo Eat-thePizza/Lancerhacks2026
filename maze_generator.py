@@ -69,9 +69,9 @@ while position[1] > 49:
     maze[position[1]][position[0]] = 'P'
     position[1] -= 1
 
-for i in range(0, len(path_index), 3):
+for i in range(0, len(path_index), 6):
     position = path_index[i]
-    direction_length = random.randint(10,20)
+    direction_length = random.randint(10,15)
     XY = False
     generate_path("S")
 
